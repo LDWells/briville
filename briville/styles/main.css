@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(1, 1, 1);
+}
+
+#title{
+ 
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    display: block;
+    margin-left: 35%;
+}
+
+h1{
+    color: pink;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 32%;
+      
+}
+
+h2{
+    color: pink;
+    position: absolute;
+
+}
+
+#contact{
+    color: pink;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 35%;
+}
+
+#email{
+    color: pink;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 40%;
+}
+
+#follow{
+    color: pink;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 35%;
+}
+
+#insta{
+    color: pink;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 40%;
+}
+
+.text {
+    display: inline-block;
+    margin: 0 20px 0 20px;
+  }
+  
+  .img {
+    margin: 0 20px 0 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+a:link{
+    color: pink;
+    text-decoration: none;
+}
+
+
+a:visited{
+    color: pink;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+
+}
+
+a:active{
+    text-decoration: none;
+
+}
+
+.snowflake{
+    position: absolute;
+    background-image: url("../images/bri.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    animation: fall 4s linear infinite;
+    top: -20px;
+
+}
+
+@keyframes fall {
+    to{
+        transform: translateY(97vh);
+    }
+}
+
+@media (max-width: 600px) {
+    #title{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    display: block;
+    margin-left: 25%;
+    }
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 1em; 
+        color: pink;
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 95%;
+          
+    }
+}
+
+@media (max-width: 600px) {
+    h2{
+        font-size: 1em;
+        color: pink;
+        position: absolute;
+    
+    }
+
+}
+ 
+@media (max-width: 600px) {
+    #contact{
+        color: pink;
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 105%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    #email{
+        color: pink;
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 110%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    #follow{
+        color: pink;
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 120%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    #insta{
+        color: pink;
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 125%;
+    }
+
+}
